@@ -1,0 +1,222 @@
+/*=================COMMON STYLES==================*/
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+button {
+cursor: pointer;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+/*=================COMMON STYLES==================*/
+
+
+/*=================HEADER==================*/
+
+.logotype {
+    font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+}
+    
+.span-studio {
+    font-family: 'Raleway', sans-serif;
+     font-size: 18px;
+     line-height: 1.17;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: #2E2F42;
+}
+
+.menu-link {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.menu-link:active,
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+}
+
+.header-address {
+    font-style: normal
+}
+
+.address-list-item-link {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.address-list-item-link:active,
+.address-list-item-link:hover,
+.address-list-item-link:focus {
+    color: #404BBF;
+}
+
+/*=================HEADER==================*/
+
+/*===============HERO SECTION==============*/
+
+.hero {
+background-color: #2e2f42;
+} 
+
+.main-title {
+        text-align: center;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+}
+
+.order-serv-btn {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        background-color: #4D5AE5;
+}
+
+.order-serv-btn:active,
+.order-serv-btn:hover,
+.order-serv-btn:focus {
+    background-color: #404BBF
+}
+
+.hidden-title {
+    opacity: 0;
+}
+
+.benefits-list-title {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+.benefits-list-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+/*===============HERO SECTION==============*/
+
+/*===================TEAM==================*/
+
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-list-item {
+    background-color: #FFFFFF;
+}
+
+.main-team-title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.team-list-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.team-list-text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*===================TEAM==================*/
+
+/*==============OUR PORTFOLIO==============*/
+
+.main-portfolio-title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.portfolio-list-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.portfolio-list-text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/*==============OUR PORTFOLIO==============*/
+
+/*=================FOOTER==================*/
+.page-footer {
+    background-color:#2E2F42;
+}
+
+.logotype-footer {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.footer-span-studio {
+    color: #f4f4fd;
+}
+
+.page-footer-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #F4F4FD;
+}
+
+/*=================FOOTER==================*/
