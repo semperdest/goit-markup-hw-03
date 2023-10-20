@@ -101,7 +101,6 @@ body {
 }
 
 .menu-item {
-    margin-right: 40px;
     padding: 24px 0;
 }
 
@@ -131,14 +130,17 @@ body {
 .address-list {
     display: flex;
     gap: 40px;
+    padding-left: 332px;
 }
 
 .address-list-item {
     margin-right: 40px;
+    
 }
 
 .address-list-item-last {
     margin-right: 0;
+    width: 151px;
 }
 
 .address-list-item-link {
