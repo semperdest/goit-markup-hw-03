@@ -85,18 +85,13 @@ body {
 
 .menu-item {
     margin-right: 40px;
-    padding: 24px 0;
-   
-}
-
-.menu-item-last {
-    
-margin-right: 0;
+    padding: 24px 0;   
 }
 
 .menu-link {
     padding: 24px 0;
 }
+
 .header-address {
     display: flex;
     align-items: center;
