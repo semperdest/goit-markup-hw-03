@@ -90,9 +90,13 @@ body {
 }
 
 .menu-item-last {
+    
 margin-right: 0;
 }
 
+.menu-link {
+    padding: 24px 0;
+}
 .header-address {
     display: flex;
     align-items: center;
@@ -182,7 +186,7 @@ padding: 188px 0;
         line-height: 1.07;
         letter-spacing: 0.02em;
         color: #FFFFFF;
-        width: 496px;
+        max-width: 496px;
        margin: 0 auto; 
 }
 
@@ -216,7 +220,8 @@ padding: 188px 0;
 /*===============OUR BENEFITS==============*/
 
 .benefits-section {
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .visually-hidden {
@@ -236,7 +241,10 @@ padding: 188px 0;
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
-    width: calc((100% - 72px) / 4);
+    
+   }
+   .benefits-list-item {
+width: calc((100% - 72px) / 4);
    }
 
 .benefits-list-title {
@@ -265,7 +273,8 @@ padding: 188px 0;
 /*===================TEAM==================*/
 
 .team-section {
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team {
@@ -337,7 +346,11 @@ padding: 188px 0;
         column-gap: 24px;
         row-gap: 48px;
         flex-wrap: wrap;
-        width: calc((100% - 48px) / 3);
+        
+}
+
+.portfolio-list-item {
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-list-container {
@@ -365,8 +378,8 @@ padding: 188px 0;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-
         padding-bottom: 4px;
+        margin-bottom: 8px
 }
 
 .portfolio-list-text {
@@ -375,7 +388,7 @@ padding: 188px 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-top: 4px;
+    margin: 0;
 }
 
 /*==============OUR PORTFOLIO==============*/
