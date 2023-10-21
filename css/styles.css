@@ -45,7 +45,7 @@ body {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    
+    justify-content: space-between
 }
 
 
@@ -125,7 +125,6 @@ body {
     font-style: normal;
     display: flex;
     align-items: center;
-    max-width: 346px;
 }
 
 .address-list {
