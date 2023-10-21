@@ -45,7 +45,7 @@ body {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    justify-content: space-between;
+    
 }
 
 
@@ -73,7 +73,7 @@ body {
     align-items: center;
     width: 100%;
     max-width: 455px;
-    margin-right: 332px;
+    
 }
 
 .logotype {
