@@ -359,7 +359,7 @@ body {
 .social-list-link {
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
 width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -368,6 +368,7 @@ width: 100%;
   padding-left: 12px;
   padding-right: 12px;
   padding-bottom: 12px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 
