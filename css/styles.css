@@ -95,9 +95,6 @@ body {
   gap: 40px;
 }
 
-.menu-item {
-  padding: 24px 0;
-}
 
 .menu-link {
   display: block;
@@ -198,7 +195,10 @@ body {
   background-color: #4d5ae5;
   min-width: 169px;
   height: 56px;
-  margin: 48px auto;
+  margin-top: 48px;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
   padding: 16px 32px;
   border: none;
   border-radius: 4px;
@@ -225,7 +225,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 112px;
 }
 
 .visually-hidden {
@@ -287,6 +286,7 @@ body {
 .team-section {
   padding-top: 120px;
   padding-bottom: 120px;
+  background: #F4F4FD;
 }
 
 .team {
@@ -410,7 +410,7 @@ width: 100%;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
+ 
 }
 .main-portfolio-title {
   text-align: center;
@@ -425,18 +425,16 @@ width: 100%;
 }
 
 .portfolio-list-title {
-  text-align: center;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-bottom: 4px;
   margin-bottom: 8px;
 }
 
 .portfolio-list-text {
-  text-align: center;
+ 
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -495,7 +493,7 @@ width: 100%;
   text-transform: uppercase;
   color: #4d5ae5;
   display: block;
-  margin-bottom: 17.5px;
+ 
 }
 
 .footer-span-studio {
@@ -509,7 +507,7 @@ width: 100%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
-  padding-bottom: 100px;
+  margin-top: 17.5px;
   
 }
 
@@ -534,7 +532,6 @@ width: 100%;
   padding-right: 12px;
   padding-bottom: 12px;
   width: 208px;
-    height: 40px;
   gap: 16px;
  
 }
